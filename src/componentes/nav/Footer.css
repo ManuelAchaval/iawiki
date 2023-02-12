@@ -1,0 +1,12 @@
+h2{
+    font-size: small;
+}
+.footer{
+    background: linear-gradient( #DFE3EE,#F6E6CC,#FEDFB1);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50px;
+    align-content: center;
+}

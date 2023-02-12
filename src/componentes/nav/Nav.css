@@ -1,0 +1,50 @@
+nav h1 {
+    padding: 10px 10px;
+    transition: ease-in 2s;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 1%;
+    background-color:rgb(219 238 247);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-image: linear-gradient(white, grey);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover,
+a:focus {
+    color: blue;
+    background-size: 100% 2px;
+}
+.contenedor{
+    height: max-content;
+}
+.navCard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contieneTag{
+    margin: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2.5%;
+    row-gap: 10.5%;
+    
+}
+.card{
+    padding: 10px;
+    background: grey;
+    border: solid 1px;
+}

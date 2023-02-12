@@ -1,8 +1,0 @@
-h2{
-    font-size: small;
-}
-.footer{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
